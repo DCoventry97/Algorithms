@@ -28,7 +28,7 @@ public class LinearSearchTest {
         assertFalse(searcher.search(target, values));
     }
 
-    //tests that it moves to the next value in array if current value != target
+    //tests that it moves to the next value in array if current value != target.
     @Test
     public void movesToNextValue(){
         LinearSearch searcher = new LinearSearch();
@@ -37,7 +37,7 @@ public class LinearSearchTest {
         assertTrue(searcher.search(target, values));
     }
 
-    //tests that it returns false when target is not in values array
+    //tests that it returns false when target is not in values array.
     @Test
     public void targetNotInValues(){
         LinearSearch searcher = new LinearSearch();
