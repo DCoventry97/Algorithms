@@ -2,6 +2,8 @@ package sort;
 
 import org.junit.Test;
 
+import java.awt.*;
+
 import static org.junit.Assert.*;
 
 public class InsertionSortTest {
@@ -25,5 +27,25 @@ public class InsertionSortTest {
         values = testSort.sort(values);
         assertArrayEquals(expected, values);
     }
+
+    @Test
+    public void testSortOnBigUnsortedArray(){
+        int values[] = {2, 1, 5, 3, 6, 4};
+        int expected[] = {1, 2, 3, 4, 5, 6};
+        InsertionSort testSort = new InsertionSort();
+        values = testSort.sort(values);
+        assertArrayEquals(expected, values);
+    }
+
+    @Test
+    public void testSotedArray(){
+        int[] values = {1, 2, 3};
+        int[] expected = {1, 2, 3};
+        InsertionSort testSort = new InsertionSort();
+        values = testSort.sort(values);
+        assertArrayEquals(expected, values);
+    }
+
+
 
 }
