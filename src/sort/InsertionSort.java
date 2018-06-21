@@ -6,6 +6,7 @@ package sort;
 public class InsertionSort {
 
     /**
+     * Swaps the positions of 2 ints in the array.
      * @param values Array of Integers to be sorted.
      * @param index The index value of an int in vales to be swapped with a value in same array at position index - 1.
      * @return An int array which is the same as values but the required integers to be swapped have swapped.
@@ -19,6 +20,7 @@ public class InsertionSort {
     }
 
     /**
+     * implements selection sort which can be used to sort an int array. 
      * @param values The int array to be sorted.
      * @return An array of sorted integers.
      */
