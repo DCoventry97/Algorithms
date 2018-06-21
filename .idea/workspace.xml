@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94c42fb6-ad39-47e8-8341-7ebe26ab0aa7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sort/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/sort/SelectionSortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sort/SelectionSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/sort/SelectionSortTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,6 +16,9 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Algorithms$LinearSearchTest.ic" NAME="LinearSearchTest Coverage Results" MODIFIED="1528651131880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>search.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Algorithms$SelectionSortTest.ic" NAME="SelectionSortTest Coverage Results" MODIFIED="1529605201566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>sort.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Algorithms$LinearSearchTest_comparisonWithSameValue.ic" NAME="LinearSearchTest.comparisonWithSameValue Coverage Results" MODIFIED="1528647636133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>search.*</FILTER>
@@ -41,32 +44,32 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1699" />
+          <entry key="java" value="3352" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1699" />
+          <entry key="JAVA" value="3352" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sort/InsertionSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+            <state relative-caret-position="330">
+              <caret line="22" column="73" selection-start-line="22" selection-start-column="73" selection-end-line="22" selection-end-column="73" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sort/SelectionSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -74,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/sort/SelectionSortTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="600">
+              <caret line="40" column="34" lean-forward="true" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,10 +113,10 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/test/search/BinarySearchTest.java" />
         <option value="$PROJECT_DIR$/src/search/BinarySearch.java" />
-        <option value="$PROJECT_DIR$/src/sort/InsertionSort.java" />
         <option value="$PROJECT_DIR$/test/sort/InsertionSortTest.java" />
         <option value="$PROJECT_DIR$/test/sort/SelectionSortTest.java" />
         <option value="$PROJECT_DIR$/src/sort/SelectionSort.java" />
+        <option value="$PROJECT_DIR$/src/sort/InsertionSort.java" />
       </list>
     </option>
   </component>
@@ -135,7 +138,7 @@
         <observation name="false" value="76.0" />
       </dailyData>
       <dailyData date="21-6-2018">
-        <observation name="false" value="50.0" />
+        <observation name="false" value="156.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:liftShorterClasses">
@@ -144,8 +147,8 @@
         <observation name="false" value="73.0" />
       </dailyData>
       <dailyData date="21-6-2018">
-        <observation name="UNDEFINED" value="1.0" />
-        <observation name="false" value="49.0" />
+        <observation name="UNDEFINED" value="7.0" />
+        <observation name="false" value="149.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:middleMatching">
@@ -153,7 +156,7 @@
         <observation name="false" value="76.0" />
       </dailyData>
       <dailyData date="21-6-2018">
-        <observation name="false" value="50.0" />
+        <observation name="false" value="156.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:nonGeneric">
@@ -162,8 +165,8 @@
         <observation name="UNDEFINED" value="47.0" />
       </dailyData>
       <dailyData date="21-6-2018">
-        <observation name="0" value="18.0" />
-        <observation name="UNDEFINED" value="32.0" />
+        <observation name="0" value="69.0" />
+        <observation name="UNDEFINED" value="87.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_inResolveScope">
@@ -173,8 +176,9 @@
         <observation name="true" value="48.0" />
       </dailyData>
       <dailyData date="21-6-2018">
-        <observation name="false" value="21.0" />
-        <observation name="true" value="29.0" />
+        <observation name="UNDEFINED" value="3.0" />
+        <observation name="false" value="63.0" />
+        <observation name="true" value="90.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_openedInEditor">
@@ -184,8 +188,9 @@
         <observation name="true" value="43.0" />
       </dailyData>
       <dailyData date="21-6-2018">
-        <observation name="false" value="23.0" />
-        <observation name="true" value="27.0" />
+        <observation name="UNDEFINED" value="3.0" />
+        <observation name="false" value="71.0" />
+        <observation name="true" value="82.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameDirectory">
@@ -195,8 +200,9 @@
         <observation name="true" value="38.0" />
       </dailyData>
       <dailyData date="21-6-2018">
-        <observation name="false" value="25.0" />
-        <observation name="true" value="25.0" />
+        <observation name="UNDEFINED" value="3.0" />
+        <observation name="false" value="81.0" />
+        <observation name="true" value="72.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameLogicalRoot">
@@ -206,8 +212,9 @@
         <observation name="true" value="38.0" />
       </dailyData>
       <dailyData date="21-6-2018">
-        <observation name="false" value="25.0" />
-        <observation name="true" value="25.0" />
+        <observation name="UNDEFINED" value="3.0" />
+        <observation name="false" value="81.0" />
+        <observation name="true" value="72.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sdkOrLibrary">
@@ -217,7 +224,8 @@
         <observation name="true" value="1.0" />
       </dailyData>
       <dailyData date="21-6-2018">
-        <observation name="false" value="50.0" />
+        <observation name="UNDEFINED" value="3.0" />
+        <observation name="false" value="153.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:templates">
@@ -225,7 +233,8 @@
         <observation name="false" value="76.0" />
       </dailyData>
       <dailyData date="21-6-2018">
-        <observation name="false" value="50.0" />
+        <observation name="false" value="155.0" />
+        <observation name="true" value="1.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:accessible">
@@ -234,7 +243,8 @@
         <observation name="UNDEFINED" value="1.0" />
       </dailyData>
       <dailyData date="21-6-2018">
-        <observation name="NORMAL" value="50.0" />
+        <observation name="NORMAL" value="153.0" />
+        <observation name="UNDEFINED" value="3.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:expectedType">
@@ -245,9 +255,11 @@
         <observation name="normal" value="51.0" />
       </dailyData>
       <dailyData date="21-6-2018">
-        <observation name="expected" value="11.0" />
-        <observation name="maybeExpected" value="2.0" />
-        <observation name="normal" value="37.0" />
+        <observation name="UNDEFINED" value="3.0" />
+        <observation name="expected" value="36.0" />
+        <observation name="maybeExpected" value="8.0" />
+        <observation name="normal" value="103.0" />
+        <observation name="ofDefaultType" value="6.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:kind">
@@ -261,12 +273,13 @@
         <observation name="variable" value="21.0" />
       </dailyData>
       <dailyData date="21-6-2018">
-        <observation name="classNameOrGlobalStatic" value="2.0" />
-        <observation name="expectedTypeVariable" value="10.0" />
-        <observation name="normal" value="21.0" />
+        <observation name="UNDEFINED" value="3.0" />
+        <observation name="classNameOrGlobalStatic" value="8.0" />
+        <observation name="expectedTypeVariable" value="38.0" />
+        <observation name="normal" value="65.0" />
         <observation name="probableKeyword" value="1.0" />
-        <observation name="suitableClass" value="1.0" />
-        <observation name="variable" value="15.0" />
+        <observation name="suitableClass" value="4.0" />
+        <observation name="variable" value="37.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_groovyReferenceListWeigher">
@@ -275,7 +288,8 @@
         <observation name="unknown" value="75.0" />
       </dailyData>
       <dailyData date="21-6-2018">
-        <observation name="unknown" value="50.0" />
+        <observation name="UNDEFINED" value="3.0" />
+        <observation name="unknown" value="153.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_javaInheritance">
@@ -285,8 +299,9 @@
         <observation name="null" value="68.0" />
       </dailyData>
       <dailyData date="21-6-2018">
-        <observation name="false" value="3.0" />
-        <observation name="null" value="47.0" />
+        <observation name="UNDEFINED" value="3.0" />
+        <observation name="false" value="12.0" />
+        <observation name="null" value="141.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_referenceList">
@@ -295,7 +310,8 @@
         <observation name="unknown" value="75.0" />
       </dailyData>
       <dailyData date="21-6-2018">
-        <observation name="unknown" value="50.0" />
+        <observation name="UNDEFINED" value="3.0" />
+        <observation name="unknown" value="153.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:recursion">
@@ -305,8 +321,8 @@
         <observation name="recursive" value="2.0" />
       </dailyData>
       <dailyData date="21-6-2018">
-        <observation name="UNDEFINED" value="15.0" />
-        <observation name="normal" value="35.0" />
+        <observation name="UNDEFINED" value="34.0" />
+        <observation name="normal" value="122.0" />
       </dailyData>
     </factor>
     <factor id="completionFinishedType">
@@ -316,9 +332,9 @@
         <observation name="typedSelect" value="64.0" />
       </dailyData>
       <dailyData date="21-6-2018">
-        <observation name="cancelled" value="110.0" />
-        <observation name="explicitSelect" value="11.0" />
-        <observation name="typedSelect" value="39.0" />
+        <observation name="cancelled" value="963.0" />
+        <observation name="explicitSelect" value="32.0" />
+        <observation name="typedSelect" value="127.0" />
       </dailyData>
     </factor>
     <factor id="completionType">
@@ -326,7 +342,7 @@
         <observation name="BASIC" value="94.0" />
       </dailyData>
       <dailyData date="21-6-2018">
-        <observation name="BASIC" value="65.0" />
+        <observation name="BASIC" value="189.0" />
       </dailyData>
     </factor>
     <factor id="completionUsage">
@@ -334,7 +350,7 @@
         <observation name="count" value="748.0" />
       </dailyData>
       <dailyData date="21-6-2018">
-        <observation name="count" value="160.0" />
+        <observation name="count" value="1122.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:explicitProximity">
@@ -346,11 +362,11 @@
         <observation name="variance" value="0.014181" />
       </dailyData>
       <dailyData date="21-6-2018">
-        <observation name="average" value="0.0" />
-        <observation name="count" value="99.0" />
-        <observation name="max" value="0.0" />
+        <observation name="average" value="0.019293" />
+        <observation name="count" value="311.0" />
+        <observation name="max" value="1.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="0.0" />
+        <observation name="variance" value="0.010406" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:grouping">
@@ -363,7 +379,7 @@
       </dailyData>
       <dailyData date="21-6-2018">
         <observation name="average" value="0.0" />
-        <observation name="count" value="99.0" />
+        <observation name="count" value="311.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -379,12 +395,12 @@
         <observation name="variance" value="11.267485" />
       </dailyData>
       <dailyData date="21-6-2018">
-        <observation name="UNDEFINED" value="48.0" />
-        <observation name="average" value="-7.666667" />
-        <observation name="count" value="3.0" />
-        <observation name="max" value="-4.0" />
-        <observation name="min" value="-15.0" />
-        <observation name="variance" value="6.722222" />
+        <observation name="UNDEFINED" value="139.0" />
+        <observation name="average" value="-6.393939" />
+        <observation name="count" value="33.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-19.0" />
+        <observation name="variance" value="27.42047" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:nameEnd">
@@ -397,11 +413,12 @@
         <observation name="variance" value="0.03155" />
       </dailyData>
       <dailyData date="21-6-2018">
-        <observation name="average" value="0.0" />
-        <observation name="count" value="99.0" />
+        <observation name="UNDEFINED" value="3.0" />
+        <observation name="average" value="-0.039344" />
+        <observation name="count" value="305.0" />
         <observation name="max" value="0.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="0.0" />
+        <observation name="min" value="-1.0" />
+        <observation name="variance" value="0.020639" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:position">
@@ -413,11 +430,11 @@
         <observation name="variance" value="0.014742" />
       </dailyData>
       <dailyData date="21-6-2018">
-        <observation name="average" value="0.080808" />
-        <observation name="count" value="99.0" />
+        <observation name="average" value="0.032154" />
+        <observation name="count" value="311.0" />
         <observation name="max" value="2.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="0.088898" />
+        <observation name="variance" value="0.054331" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prefix">
@@ -429,11 +446,11 @@
         <observation name="variance" value="731.527415" />
       </dailyData>
       <dailyData date="21-6-2018">
-        <observation name="average" value="-1147.747475" />
-        <observation name="count" value="99.0" />
-        <observation name="max" value="-1052.0" />
+        <observation name="average" value="-1129.977492" />
+        <observation name="count" value="311.0" />
+        <observation name="max" value="0.0" />
         <observation name="min" value="-1153.0" />
-        <observation name="variance" value="575.731989" />
+        <observation name="variance" value="9887.856135" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:priority">
@@ -446,7 +463,7 @@
       </dailyData>
       <dailyData date="21-6-2018">
         <observation name="average" value="0.0" />
-        <observation name="count" value="99.0" />
+        <observation name="count" value="311.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -462,11 +479,12 @@
         <observation name="variance" value="16168.654277" />
       </dailyData>
       <dailyData date="21-6-2018">
-        <observation name="average" value="160.10101" />
-        <observation name="count" value="99.0" />
+        <observation name="UNDEFINED" value="3.0" />
+        <observation name="average" value="156.885246" />
+        <observation name="count" value="305.0" />
         <observation name="max" value="300.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="15679.47171" />
+        <observation name="variance" value="17659.928898" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_knownElement">
@@ -479,11 +497,12 @@
         <observation name="variance" value="0.04871" />
       </dailyData>
       <dailyData date="21-6-2018">
-        <observation name="average" value="0.010101" />
-        <observation name="count" value="99.0" />
+        <observation name="UNDEFINED" value="3.0" />
+        <observation name="average" value="0.022951" />
+        <observation name="count" value="305.0" />
         <observation name="max" value="1.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="0.015339" />
+        <observation name="variance" value="0.021309" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_sameModule">
@@ -496,11 +515,12 @@
         <observation name="variance" value="0.788039" />
       </dailyData>
       <dailyData date="21-6-2018">
-        <observation name="average" value="1.090909" />
-        <observation name="count" value="99.0" />
+        <observation name="UNDEFINED" value="3.0" />
+        <observation name="average" value="1.07541" />
+        <observation name="count" value="305.0" />
         <observation name="max" value="2.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="0.75287" />
+        <observation name="variance" value="0.855398" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_samePsiMember">
@@ -513,11 +533,12 @@
         <observation name="variance" value="0.761891" />
       </dailyData>
       <dailyData date="21-6-2018">
-        <observation name="average" value="1.010101" />
-        <observation name="count" value="99.0" />
+        <observation name="UNDEFINED" value="3.0" />
+        <observation name="average" value="0.937705" />
+        <observation name="count" value="305.0" />
         <observation name="max" value="2.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="0.717252" />
+        <observation name="variance" value="0.828465" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:query_length">
@@ -530,7 +551,7 @@
       </dailyData>
       <dailyData date="21-6-2018">
         <observation name="average" value="0.0" />
-        <observation name="count" value="99.0" />
+        <observation name="count" value="311.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -545,11 +566,11 @@
         <observation name="variance" value="9.730171" />
       </dailyData>
       <dailyData date="21-6-2018">
-        <observation name="average" value="6.080808" />
-        <observation name="count" value="99.0" />
+        <observation name="average" value="5.440514" />
+        <observation name="count" value="311.0" />
         <observation name="max" value="17.0" />
-        <observation name="min" value="3.0" />
-        <observation name="variance" value="10.028421" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="10.704699" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:sameWords">
@@ -562,11 +583,12 @@
         <observation name="variance" value="0.03155" />
       </dailyData>
       <dailyData date="21-6-2018">
-        <observation name="average" value="0.0" />
-        <observation name="count" value="99.0" />
+        <observation name="UNDEFINED" value="3.0" />
+        <observation name="average" value="-0.039344" />
+        <observation name="count" value="305.0" />
         <observation name="max" value="0.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="0.0" />
+        <observation name="min" value="-1.0" />
+        <observation name="variance" value="0.020639" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:shorter">
@@ -579,11 +601,12 @@
         <observation name="variance" value="31486.970985" />
       </dailyData>
       <dailyData date="21-6-2018">
-        <observation name="average" value="0.0" />
-        <observation name="count" value="99.0" />
+        <observation name="UNDEFINED" value="3.0" />
+        <observation name="average" value="-39.304918" />
+        <observation name="count" value="305.0" />
         <observation name="max" value="0.0" />
-        <observation name="min" value="0.0" />
-        <observation name="variance" value="0.0" />
+        <observation name="min" value="-999.0" />
+        <observation name="variance" value="20598.100939" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:simple">
@@ -596,8 +619,9 @@
         <observation name="variance" value="0.0" />
       </dailyData>
       <dailyData date="21-6-2018">
+        <observation name="UNDEFINED" value="3.0" />
         <observation name="average" value="0.0" />
-        <observation name="count" value="99.0" />
+        <observation name="count" value="305.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -613,7 +637,7 @@
       </dailyData>
       <dailyData date="21-6-2018">
         <observation name="average" value="1.0" />
-        <observation name="count" value="99.0" />
+        <observation name="count" value="311.0" />
         <observation name="max" value="1.0" />
         <observation name="min" value="1.0" />
         <observation name="variance" value="0.0" />
@@ -629,12 +653,12 @@
         <observation name="variance" value="0.0" />
       </dailyData>
       <dailyData date="21-6-2018">
-        <observation name="UNDEFINED" value="35.0" />
+        <observation name="UNDEFINED" value="125.0" />
         <observation name="average" value="-3.0" />
-        <observation name="count" value="29.0" />
+        <observation name="count" value="61.0" />
         <observation name="max" value="-3.0" />
         <observation name="min" value="-3.0" />
-        <observation name="variance" value="0.0" />
+        <observation name="variance" value="-0.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:stats">
@@ -646,11 +670,11 @@
         <observation name="variance" value="2722822.651548" />
       </dailyData>
       <dailyData date="21-6-2018">
-        <observation name="average" value="101.0" />
-        <observation name="count" value="99.0" />
-        <observation name="max" value="9999.0" />
+        <observation name="average" value="803.81672" />
+        <observation name="count" value="311.0" />
+        <observation name="max" value="10000.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="1533605.40169" />
+        <observation name="variance" value="5333212.782632" />
       </dailyData>
     </factor>
     <factor id="itemPosition">
@@ -659,8 +683,8 @@
         <observation name="1" value="1.0" />
       </dailyData>
       <dailyData date="21-6-2018">
-        <observation name="0" value="8.0" />
-        <observation name="1" value="2.0" />
+        <observation name="0" value="28.0" />
+        <observation name="1" value="3.0" />
         <observation name="2" value="1.0" />
       </dailyData>
     </factor>
@@ -670,7 +694,7 @@
         <observation name="withMnemonics" value="0.0" />
       </dailyData>
       <dailyData date="21-6-2018">
-        <observation name="total" value="11.0" />
+        <observation name="total" value="26.0" />
         <observation name="withMnemonics" value="0.0" />
       </dailyData>
     </factor>
@@ -684,10 +708,12 @@
         <observation name="6" value="1.0" />
       </dailyData>
       <dailyData date="21-6-2018">
+        <observation name="0" value="5.0" />
+        <observation name="1" value="1.0" />
         <observation name="2" value="1.0" />
-        <observation name="3" value="7.0" />
-        <observation name="4" value="1.0" />
-        <observation name="5" value="1.0" />
+        <observation name="3" value="13.0" />
+        <observation name="4" value="8.0" />
+        <observation name="5" value="3.0" />
         <observation name="9" value="1.0" />
       </dailyData>
     </factor>
@@ -697,8 +723,8 @@
         <observation name="count" value="124.0" />
       </dailyData>
       <dailyData date="21-6-2018">
-        <observation name="average" value="293.364583" />
-        <observation name="count" value="96.0" />
+        <observation name="average" value="222.285141" />
+        <observation name="count" value="249.0" />
       </dailyData>
     </factor>
   </component>
@@ -760,7 +786,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1529592990031" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1529605561061" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -788,14 +814,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SelectionSortTest.TestSwap">
+  <component name="RunManager" selected="JUnit.SelectionSortTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SelectionSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
@@ -804,58 +830,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="sort" />
-      <option name="MAIN_CLASS_NAME" value="sort.InsertionSortTest" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InsertionSortTest.testSortOnBigUnsortedArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sort" />
-      <option name="MAIN_CLASS_NAME" value="sort.InsertionSortTest" />
-      <option name="METHOD_NAME" value="testSortOnBigUnsortedArray" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InsertionSortTest.testSortOnSmallUnsortedArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sort" />
-      <option name="MAIN_CLASS_NAME" value="sort.InsertionSortTest" />
-      <option name="METHOD_NAME" value="testSortOnSmallUnsortedArray" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InsertionSortTest.testSotedArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sort" />
-      <option name="MAIN_CLASS_NAME" value="sort.InsertionSortTest" />
-      <option name="METHOD_NAME" value="testSotedArray" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="sort.SelectionSortTest" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -878,6 +853,57 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SelectionSortTest.testSortLargeArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sort" />
+      <option name="MAIN_CLASS_NAME" value="sort.SelectionSortTest" />
+      <option name="METHOD_NAME" value="testSortLargeArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectionSortTest.testSortSmallArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sort" />
+      <option name="MAIN_CLASS_NAME" value="sort.SelectionSortTest" />
+      <option name="METHOD_NAME" value="testSortSmallArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectionSortTest.testSortedArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sort" />
+      <option name="MAIN_CLASS_NAME" value="sort.SelectionSortTest" />
+      <option name="METHOD_NAME" value="testSortedArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -893,19 +919,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.InsertionSortTest.testSortOnSmallUnsortedArray" />
-      <item itemvalue="JUnit.InsertionSortTest" />
-      <item itemvalue="JUnit.InsertionSortTest.testSortOnBigUnsortedArray" />
-      <item itemvalue="JUnit.InsertionSortTest.testSotedArray" />
       <item itemvalue="JUnit.SelectionSortTest.TestSwap" />
+      <item itemvalue="JUnit.SelectionSortTest.testSortSmallArray" />
+      <item itemvalue="JUnit.SelectionSortTest" />
+      <item itemvalue="JUnit.SelectionSortTest.testSortLargeArray" />
+      <item itemvalue="JUnit.SelectionSortTest.testSortedArray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SelectionSortTest" />
+        <item itemvalue="JUnit.SelectionSortTest.testSortedArray" />
+        <item itemvalue="JUnit.SelectionSortTest.testSortLargeArray" />
+        <item itemvalue="JUnit.SelectionSortTest.testSortSmallArray" />
         <item itemvalue="JUnit.SelectionSortTest.TestSwap" />
-        <item itemvalue="JUnit.InsertionSortTest.testSotedArray" />
-        <item itemvalue="JUnit.InsertionSortTest.testSortOnBigUnsortedArray" />
-        <item itemvalue="JUnit.InsertionSortTest" />
-        <item itemvalue="JUnit.InsertionSortTest.testSortOnSmallUnsortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -927,27 +953,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BinarySearchTest - 2018.06.11 at 01h 57m 00s.xml">
-      <configuration name="BinarySearchTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchTest - 2018.06.15 at 12h 20m 08s.xml">
-      <configuration name="BinarySearchTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InsertionSortTest_testSwap - 2018.06.20 at 17h 24m 50s.xml">
-      <configuration name="InsertionSortTest.testSwap" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InsertionSortTest_testSortOnSmallUnsortedArray - 2018.06.20 at 17h 33m 52s.xml">
-      <configuration name="InsertionSortTest.testSortOnSmallUnsortedArray" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InsertionSortTest - 2018.06.20 at 17h 35m 24s.xml">
-      <configuration name="InsertionSortTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InsertionSortTest - 2018.06.20 at 17h 50m 32s.xml">
-      <configuration name="InsertionSortTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InsertionSortTest_testSortOnBigUnsortedArray - 2018.06.20 at 17h 52m 02s.xml">
-      <configuration name="InsertionSortTest.testSortOnBigUnsortedArray" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="InsertionSortTest_testSotedArray - 2018.06.20 at 17h 54m 58s.xml">
       <configuration name="InsertionSortTest.testSotedArray" configurationId="JUnit" />
     </history-entry>
@@ -957,15 +962,36 @@
     <history-entry file="SelectionSortTest_TestSwap - 2018.06.21 at 15h 55m 27s.xml">
       <configuration name="SelectionSortTest.TestSwap" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SelectionSortTest_testSortSmallArray - 2018.06.21 at 17h 17m 48s.xml">
+      <configuration name="SelectionSortTest.testSortSmallArray" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SelectionSortTest_testSortSmallArray - 2018.06.21 at 17h 18m 22s.xml">
+      <configuration name="SelectionSortTest.testSortSmallArray" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SelectionSortTest_testSortSmallArray - 2018.06.21 at 17h 19m 00s.xml">
+      <configuration name="SelectionSortTest.testSortSmallArray" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SelectionSortTest - 2018.06.21 at 17h 19m 06s.xml">
+      <configuration name="SelectionSortTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SelectionSortTest_testSortLargeArray - 2018.06.21 at 19h 11m 11s.xml">
+      <configuration name="SelectionSortTest.testSortLargeArray" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SelectionSortTest_testSortedArray - 2018.06.21 at 19h 14m 09s.xml">
+      <configuration name="SelectionSortTest.testSortedArray" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SelectionSortTest - 2018.06.21 at 19h 20m 02s.xml">
+      <configuration name="SelectionSortTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17215000" />
+    <option name="totallyTimeSpent" value="22956000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="28" width="2562" height="1413" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13922037" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13922037" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -974,7 +1000,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3216511" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3216511" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1070,17 +1096,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/InsertionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/sort/SelectionSortTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="600">
+          <caret line="40" column="34" lean-forward="true" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1089,8 +1108,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sort/SelectionSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sort/InsertionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="73" selection-start-line="22" selection-start-column="73" selection-end-line="22" selection-end-column="73" />
         </state>
       </provider>
     </entry>
